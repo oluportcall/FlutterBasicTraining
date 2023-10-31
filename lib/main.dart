@@ -1,4 +1,4 @@
-import 'package:firstapp/screens/dynamicdash.dart';
+import 'package:firstapp/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'My my app up',
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: DynamicDash(),
+      home: Home(),
     );
   }
 }
