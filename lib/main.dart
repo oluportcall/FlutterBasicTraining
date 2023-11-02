@@ -1,4 +1,4 @@
-import 'package:firstapp/screens/rowsandcol.dart';
+import 'package:firstapp/screens/listviewpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'My my app up',
       themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      home: RowsCols(),
+      home: ListViewPage(),
     );
   }
 }
